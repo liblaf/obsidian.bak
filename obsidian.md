@@ -39,9 +39,7 @@
 
 ```json
 {
-  "autoSaveInterval": 5,
   "autoPullInterval": 5,
-  "autoPullOnBoot": true,
-  "autoBackupAfterFileChange": true
+  "autoPullOnBoot": true
 }
 ```
