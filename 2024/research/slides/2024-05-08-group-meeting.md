@@ -9,30 +9,26 @@
 
 ## 上周进展
 
-- DONE 完成了 12 / 23 组预测 (无 landmarks, 无微调)
+- DONE 跑通一组 pipeline
+  - 无需 landmarks
+  - Poisson's ratio $\nu = 0.25$ (ref. $\nu = 0.46$)
+  - 约 20 min (其中 registration > 15 min)
+  - TetGen 不鲁棒 (暂不清楚原因, 与编译选项和浮点计算有关)
 - TODO 调研 CG physics 方向
 
 ---
 
-## 穿模 Mesh 的 Tetrahedralization
-
-- 动机: 降低对 registration 的要求
-- 方法:
-  - 先 "修好" 穿模, 再插值
-- 可以处理:
-  - 上 / 下颌骨 / 外表面自相交, 上下颌骨互穿
-- 不能处理:
-  - 骨骼和外表面的穿模 (一般不会出现)
+## Example Results
 
 ```shell
-paraview tetra.vtu
-meshlab {pre,post}-*.ply
+paraview target/120056/{tetra,predict,ground-truth}.vtu target/120056/{pre,post}/99-{mandible,maxilla}.vtu # simulation
+paraview target/120056/post/02-{face,skull}.ply target/120056/post/99-{face,mandible,maxilla}.vtu # registration
 ```
 
 ---
 
 ## TODO
 
-- 准备
+- 跑完所有 (能跑通) 数据, 共 23 组
 - 可视化 \& 撰写论文 (DDL 05.26)
 - 调研图形学 physics 方向
