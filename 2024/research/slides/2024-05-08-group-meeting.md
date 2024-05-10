@@ -10,11 +10,17 @@
 ## 上周进展
 
 - DONE 跑通一组 pipeline
-  - 无需 landmarks
+  - 可以不用 landmarks
   - Poisson's ratio $\nu = 0.25$ (ref. $\nu = 0.46$)
   - 约 20 min (其中 registration > 15 min)
-  - TetGen 不鲁棒 (暂不清楚原因, 与编译选项和浮点计算有关)
 - TODO 调研 CG physics 方向
+
+---
+
+## TetGen 不鲁棒
+
+- 暂不清楚具体原因, 有些错误与编译选项和浮点计算相关
+- 此前使用不考虑法向的 registration 能跑通 12 / 23 组
 
 ---
 
@@ -29,6 +35,6 @@ paraview target/120056/post/02-{face,skull}.ply target/120056/post/99-{face,mand
 
 ## TODO
 
-- 跑完所有 (能跑通) 数据, 共 23 组
+- 跑完所有 (能跑通的) 数据
 - 可视化 \& 撰写论文 (DDL 05.26)
 - 调研图形学 physics 方向
