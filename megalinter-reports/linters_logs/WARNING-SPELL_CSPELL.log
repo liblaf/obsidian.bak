@@ -1,0 +1,236 @@
+Results of cspell linter (version 8.14.1)
+See documentation on https://megalinter.io/8.0.0/descriptors/spell_cspell/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+ 1/21 .github/auto-label.yaml 777.17ms
+ 2/21 .github/blunderbuss.yml 224.95ms X
+.github/blunderbuss.yml:4:5       - Unknown word (liblaf)     -- - liblaf
+	 Suggestions: [lila, libau, libia, libra, libya]
+.github/blunderbuss.yml:7:5       - Unknown word (liblaf)     -- - liblaf
+	 Suggestions: [lila, libau, libia, libra, libya]
+ 3/21 .github/renovate.json 203.37ms
+ 4/21 .github/sync-repo-settings.yaml 2.11ms
+ 5/21 .github/workflows/megalinter.yaml 139.04ms X
+.github/workflows/megalinter.yaml:179:15    - Unknown word (stefanzweifel) -- uses: stefanzweifel/git-auto-commit-action
+	 Suggestions: []
+ 6/21 .gitignore 5.23ms
+ 7/21 .mega-linter.yaml 435.81ms X
+.mega-linter.yaml:34:12     - Unknown word (ISORT)      -- - PYTHON_ISORT
+	 Suggestions: [SORT, iost, IOST, IGOR, ISAR]
+.mega-linter.yaml:35:12     - Unknown word (MYPY)       -- - PYTHON_MYPY
+	 Suggestions: [MOPY, MYOPY, MACY, MANY, MAPS]
+.mega-linter.yaml:36:12     - Unknown word (PYLINT)     -- - PYTHON_PYLINT
+	 Suggestions: [PLYING, PINT, PAINT, PLANT, PLINK]
+.mega-linter.yaml:42:12     - Unknown word (DEVSKIM)    -- REPOSITORY_DEVSKIM_CONFIG_FILE: .github
+	 Suggestions: [DESK, DEVI, DKIM, DEISM, DENIM]
+.mega-linter.yaml:42:53     - Unknown word (devskim)    -- .github/megalinter/.devskim.json
+	 Suggestions: [desk, devi, dkim, deism, denim]
+.mega-linter.yaml:43:12     - Unknown word (KICS)       -- REPOSITORY_KICS_CONFIG_FILE: .github
+	 Suggestions: [KI'S, KICK, KIDS, KINS, KIPS]
+.mega-linter.yaml:43:49     - Unknown word (kics)       -- .github/megalinter/kics.config
+	 Suggestions: [ki's, kick, kids, kins, kips]
+ 8/21 .pre-commit-config.yaml 79.47ms X
+.pre-commit-config.yaml:10:13     - Unknown word (commitizen) -- - id: commitizen
+	 Suggestions: [comities, commitid, committed, committee, committer]
+.pre-commit-config.yaml:34:20     - Unknown word (bidi)       -- - id: forbid-bidi-controls
+	 Suggestions: [bide, bids, bini, Bini, bid]
+ 9/21 2024/research/notes/2024-03-21-项目介绍.md 752.16ms X
+2024/research/notes/2024-03-21-项目介绍.md:60:7      - Unknown word (Amberg)     -- [^1]: Amberg, Brian, Sami Romdhani
+	 Suggestions: [amber, Amber, Ambers, Ambery, Amer]
+2024/research/notes/2024-03-21-项目介绍.md:60:22     - Unknown word (Sami)       -- ^1]: Amberg, Brian, Sami Romdhani, and Thomas
+	 Suggestions: [sadi, Sadi, saki, Saki, Same]
+2024/research/notes/2024-03-21-项目介绍.md:60:27     - Unknown word (Romdhani)   -- Amberg, Brian, Sami Romdhani, and Thomas Vetter.
+	 Suggestions: [romani, Romani, Rodman, roman, Roman]
+2024/research/notes/2024-03-21-项目介绍.md:75:7      - Unknown word (Cotin)      -- [^2]: Cotin, Stéphane, Hervé Delingette
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/notes/2024-03-21-项目介绍.md:75:14     - Unknown word (Stéphane)   -- [^2]: Cotin, Stéphane, Hervé Delingette, and
+	 Suggestions: [stephan, Stephan, stephanie, Stephanie, Stephen]
+2024/research/notes/2024-03-21-项目介绍.md:75:24     - Unknown word (Hervé)      -- ]: Cotin, Stéphane, Hervé Delingette, and Nicholas
+	 Suggestions: [here, Here, Heave, Helve, Herne]
+2024/research/notes/2024-03-21-项目介绍.md:75:30     - Unknown word (Delingette) -- Cotin, Stéphane, Hervé Delingette, and Nicholas Ayache
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/notes/2024-03-21-项目介绍.md:75:55     - Unknown word (Ayache)     -- Delingette, and Nicholas Ayache. 2000. “A Hybrid Elastic
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/notes/2024-03-21-项目介绍.md:80:8      - Unknown word (bmatrix)    -- \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:83:6      - Unknown word (bmatrix)    -- \end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:83:22     - Unknown word (bmatrix)    -- end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:86:6      - Unknown word (bmatrix)    -- \end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:86:24     - Unknown word (bmatrix)    -- end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:98:14     - Unknown word (mathbf)     -- - 已知 $f_1 = \mathbf{0}$ --- 自由顶点所受的外力,
+	 Suggestions: [math, maths, math's, mather, mathew]
+10/21 2024/research/slides/2024-03-27-group-meeting.md 140.84ms X
+2024/research/slides/2024-03-27-group-meeting.md:52:6      - Unknown word (Eigen)      -- - 尝试 Eigen 求解以实现自由调整参数
+	 Suggestions: [E'en, eben, Eben, eden, Eden]
+11/21 2024/research/slides/2024-04-04-group-meeting.md 5.48ms
+12/21 2024/research/slides/2024-04-10-group-meeting.md 20.44ms
+13/21 2024/research/slides/2024-04-16-group-meeting.md 32.53ms X
+2024/research/slides/2024-04-16-group-meeting.md:42:59     - Unknown word (disp)       -- 些对应可以得到 `S2` 部分顶点的 `disp` (术前后位移)
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:43:7      - Unknown word (disp)       -- 5. 对 `disp` 插值, 得到 `S2` 上 dense
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:43:34     - Unknown word (disp)       -- 值, 得到 `S2` 上 dense `disp`
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:44:13     - Unknown word (disp)       -- - 未知顶点的 `disp` 由邻接顶点加权平均, 多次迭代至所有
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:44:41     - Unknown word (disp)       -- 接顶点加权平均, 多次迭代至所有顶点 `disp` 已知
+	 Suggestions: [dips, disc, dish, disk, dist]
+14/21 2024/research/slides/2024-05-01-group-meeting.md 139.92ms X
+2024/research/slides/2024-05-01-group-meeting.md:12:21     - Unknown word (tetrahedralization) -- - DONE 实现对穿模 mesh 的 tetrahedralization
+	 Suggestions: []
+2024/research/slides/2024-05-01-group-meeting.md:18:14     - Unknown word (Tetrahedralization) -- ## 穿模 Mesh 的 Tetrahedralization
+	 Suggestions: []
+15/21 2024/research/slides/2024-05-05-report.md 1143.16ms X
+2024/research/slides/2024-05-05-report.md:35:24     - Unknown word (Cotin)      -- Mass-Tensor Model[^(Cotin, Delingette, and Ayache
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/slides/2024-05-05-report.md:35:31     - Unknown word (Delingette) -- Tensor Model[^(Cotin, Delingette, and Ayache 2000)]
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/slides/2024-05-05-report.md:35:47     - Unknown word (Ayache)     -- Cotin, Delingette, and Ayache 2000)]
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/slides/2024-05-05-report.md:37:4      - Unknown word (Cotin)      -- [^(Cotin, Delingette, and Ayache
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/slides/2024-05-05-report.md:37:11     - Unknown word (Delingette) -- [^(Cotin, Delingette, and Ayache 2000)]:
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/slides/2024-05-05-report.md:37:27     - Unknown word (Ayache)     -- Cotin, Delingette, and Ayache 2000)]: Cotin, Stéphane
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/slides/2024-05-05-report.md:37:42     - Unknown word (Cotin)      -- and Ayache 2000)]: Cotin, Stéphane, Hervé Delingette
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/slides/2024-05-05-report.md:37:49     - Unknown word (Stéphane)   -- Ayache 2000)]: Cotin, Stéphane, Hervé Delingette, and
+	 Suggestions: [stephan, Stephan, stephanie, Stephanie, Stephen]
+2024/research/slides/2024-05-05-report.md:37:59     - Unknown word (Hervé)      -- ]: Cotin, Stéphane, Hervé Delingette, and Nicholas
+	 Suggestions: [here, Here, Heave, Helve, Herne]
+2024/research/slides/2024-05-05-report.md:37:65     - Unknown word (Delingette) -- Cotin, Stéphane, Hervé Delingette, and Nicholas Ayache
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/slides/2024-05-05-report.md:37:90     - Unknown word (Ayache)     -- Delingette, and Nicholas Ayache. 2000. “A Hybrid Elastic
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/slides/2024-05-05-report.md:41:29     - Unknown word (mathrm)     -- \frac{\lambda}{2} (\mathrm{tr}(E))^{2} + \mu \mathrm
+	 Suggestions: [math, mater, maths, maihem, maters]
+2024/research/slides/2024-05-05-report.md:41:55     - Unknown word (mathrm)     -- mathrm{tr}(E))^{2} + \mu \mathrm{tr}(E^2) \\\\
+	 Suggestions: [math, mater, maths, maihem, maters]
+2024/research/slides/2024-05-05-report.md:47:22     - Unknown word (Lamé)       -- $\lambda, \mu$ --- Lamé parameters
+	 Suggestions: [Lame, Lama, lamb, Lamb, Lamp]
+2024/research/slides/2024-05-05-report.md:56:4      - Unknown word (mathbf)     -- \mathbf{f} & = [\mathbf{K}]
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:56:20     - Unknown word (mathbf)     -- \mathbf{f} & = [\mathbf{K}] \mathbf{u}
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:56:32     - Unknown word (mathbf)     -- f} & = [\mathbf{K}] \mathbf{u}
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:67:8      - Unknown word (bmatrix)    -- \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:70:6      - Unknown word (bmatrix)    -- \end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:70:22     - Unknown word (bmatrix)    -- end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:73:6      - Unknown word (bmatrix)    -- \end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:73:24     - Unknown word (bmatrix)    -- end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:84:2      - Unknown word (mathbf)     -- \mathbf K_{11} \mathbf u_1
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:84:17     - Unknown word (mathbf)     -- \mathbf K_{11} \mathbf u_1 = - \mathbf K_{
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:95:5      - Unknown word (GMRES)      -- - **GMRES**: Generalized Minimal
+	 Suggestions: [GORES, GYRES, GERS, GOERS, GORSE]
+2024/research/slides/2024-05-05-report.md:101:45    - Unknown word (Schutyser)  -- )]: Mollemans, W, F Schutyser, N Nadjmi, F Maes, and
+	 Suggestions: [schuyler, Schuyler, Scouter, Scutter, Shutter]
+2024/research/slides/2024-05-05-report.md:101:58    - Unknown word (Nadjmi)     -- Mollemans, W, F Schutyser, N Nadjmi, F Maes, and P Suetens
+	 Suggestions: [naomi, Naomi, Andrei, nama, Nama]
+2024/research/slides/2024-05-05-report.md:101:68    - Unknown word (Maes)       -- Schutyser, N Nadjmi, F Maes, and P Suetens. 200
+	 Suggestions: [Ames, Meas, Ma's, maas, Maas]
+2024/research/slides/2024-05-05-report.md:101:138   - Unknown word (Maxillofacial) -- Tissue Deformations for a Maxillofacial Surgery Planning System
+	 Suggestions: []
+2024/research/slides/2024-05-05-report.md:112:39    - Unknown word (mathrm)        -- al. 2010)]\: $E = 3 \mathrm{kPa}, \nu = 0.46$
+	 Suggestions: [math, mater, maths, maihem, maters]
+2024/research/slides/2024-05-05-report.md:115:28    - Unknown word (Hyungmin)      -- et al. 2010)]: Kim, Hyungmin, Philipp Jürgens, Stefan
+	 Suggestions: [Hangman, Hangmen, hyundai, Hyundai]
+2024/research/slides/2024-05-05-report.md:115:38    - Unknown word (Philipp)       -- 0)]: Kim, Hyungmin, Philipp Jürgens, Stefan Weber
+	 Suggestions: [philip, Philip, philips, Philips, Philippa]
+2024/research/slides/2024-05-05-report.md:115:46    - Unknown word (Jürgens)       -- Kim, Hyungmin, Philipp Jürgens, Stefan Weber, Lutz
+	 Suggestions: [Jargons, jorge's, Jorge's, judges, Judges]
+2024/research/slides/2024-05-05-report.md:115:69    - Unknown word (Lutz)          -- rgens, Stefan Weber, Lutz-Peter Nolte, and Mauricio
+	 Suggestions: [Lute, luth, Luth, luz, Luz]
+2024/research/slides/2024-05-05-report.md:115:80    - Unknown word (Nolte)         -- Stefan Weber, Lutz-Peter Nolte, and Mauricio Reyes
+	 Suggestions: [Nolet, Note, nolde, Nolde, Nolle]
+2024/research/slides/2024-05-05-report.md:115:156   - Unknown word (Cranio)        -- Simulation Strategy for Cranio-Maxillofacial Surgery
+	 Suggestions: [Crania, Cardio, Carnie, canso, Canso]
+2024/research/slides/2024-05-05-report.md:115:163   - Unknown word (Maxillofacial) -- Strategy for Cranio-Maxillofacial Surgery Using Facial
+	 Suggestions: []
+2024/research/slides/2024-05-05-report.md:120:15    - Unknown word (undeformed)    -- <figcaption>undeformed</figcaption>
+	 Suggestions: [unreformed, unformed, uniformed, uninformed, unperformed]
+16/21 2024/research/slides/2024-05-08-group-meeting.md 3.49ms
+17/21 2024/research/slides/2024-05-15-group-meeting.md 2.94ms
+18/21 95f39ffd-f26b-4d2b-8691-4c23639f37f5-megalinter_file_names_cspell.txt 45.56ms X
+95f39ffd-f26b-4d2b-8691-4c23639f37f5-megalinter_file_names_cspell.txt:5:20      - Unknown word (devskim)    -- github megalinter devskim
+	 Suggestions: [desk, devi, dkim, deism, denim]
+19/21 css/slides.css 78.78ms
+20/21 obsidian.md 10.43ms
+21/21 Welcome.md 1.80ms
+CSpell: Files checked: 21, Issues found: 73 in 10 files.
+
+
+You can skip this misspellings by defining the following .cspell.json file at the root of your repository
+Of course, please correct real typos before :)
+
+{
+    "version": "0.2",
+    "language": "en",
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        "**/.pnpm-lock.json",
+        ".vscode",
+        "package-lock.json",
+        "megalinter-reports"
+    ],
+    "words": [
+        "Amberg",
+        "Ayache",
+        "Cotin",
+        "Cranio",
+        "DEVSKIM",
+        "Delingette",
+        "Eigen",
+        "GMRES",
+        "Herv\u00e9",
+        "Hyungmin",
+        "ISORT",
+        "J\u00fcrgens",
+        "KICS",
+        "Lam\u00e9",
+        "Lutz",
+        "MYPY",
+        "Maes",
+        "Maxillofacial",
+        "Nadjmi",
+        "Nolte",
+        "PYLINT",
+        "Philipp",
+        "Romdhani",
+        "Sami",
+        "Schutyser",
+        "St\u00e9phane",
+        "Tetrahedralization",
+        "bidi",
+        "bmatrix",
+        "commitizen",
+        "devskim",
+        "disp",
+        "kics",
+        "liblaf",
+        "mathbf",
+        "mathrm",
+        "stefanzweifel",
+        "tetrahedralization",
+        "undeformed"
+    ]
+}
+
+
+You can also copy-paste megalinter-reports/.cspell.json at the root of your repository
