@@ -1,0 +1,18 @@
+Results of markdownlint linter (version 0.41.0)
+See documentation on https://megalinter.io/8.0.0/descriptors/markdown_markdownlint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+2024/research/slides/2024-03-27-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-04-04-group-meeting.md:6 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-04-10-group-meeting.md:6 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-04-10-group-meeting.md:15 MD024/no-duplicate-heading Multiple headings with the same content [Context: "## 问题"]
+2024/research/slides/2024-04-16-group-meeting.md:6 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-05-01-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-05-05-report.md:7 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## Task"]
+2024/research/slides/2024-05-05-report.md:134 MD024/no-duplicate-heading Multiple headings with the same content [Context: "## Problems"]
+2024/research/slides/2024-05-08-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-05-15-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+Welcome.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "This is your new *vault*."]
+

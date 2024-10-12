@@ -1,0 +1,451 @@
+----------------------------------------------------------------------------------------------------
+------------------------------------ MegaLinter, by OX Security ------------------------------------
+----------------------------------------------------------------------------------------------------
+ - Image Creation Date: 2024-08-19T21:44:53Z
+ - Image Revision: 378cc7a36ad17c7f458333ebf6803a5069fff007
+ - Image Version: v8.0.0
+----------------------------------------------------------------------------------------------------
+The MegaLinter documentation can be found at:
+ - https://megalinter.io/8.0.0
+----------------------------------------------------------------------------------------------------
+::group::MegaLinter initialization (expand for details)
+MegaLinter will analyze workspace [/github/workspace]
+GITHUB_REPOSITORY: liblaf/obsidian
+GITHUB_REF: refs/pull/3/merge
+GITHUB_RUN_ID: 11305395478
+
+
+[Activation] ANSIBLE_ANSIBLE_LINT has been set inactive, as none of these files has been found: ['.ansible-lint']
+[Activation] EDITORCONFIG_EDITORCONFIG_CHECKER has been set inactive, as none of these files has been found: ['.editorconfig']
+[Activation] JAVASCRIPT_ES has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs', 'package.json:eslintConfig']
+[Activation] JSON_NPM_PACKAGE_JSON_LINT has been set inactive, as none of these files has been found: ['package.json']
+[Activation] JSX_ESLINT has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs', 'package.json:eslintConfig']
+[Activation] KUBERNETES_KUBECONFORM has been set inactive, as subdirectory has not been found: kubernetes (set value "any" to always activate)
+[Activation] KUBERNETES_HELM has been set inactive, as none of these files has been found: ['Chart.yml', 'Chart.yaml']
+[Activation] KUBERNETES_KUBESCAPE has been set inactive, as none of these files has been found: ['Chart.yml', 'Chart.yaml']
+[Activation] REPOSITORY_LS_LINT has been set inactive, as none of these files has been found: ['.ls-lint.yml']
+[SemgrepLinter] Deactivated because no ruleset has been defined
+[Activation] SALESFORCE_SFDX_SCANNER_APEX has been set inactive, as subdirectory has not been found: force-app (set value "any" to always activate)
+[Activation] SALESFORCE_SFDX_SCANNER_AURA has been set inactive, as subdirectory has not been found: force-app (set value "any" to always activate)
+[Activation] SALESFORCE_SFDX_SCANNER_LWC has been set inactive, as subdirectory has not been found: force-app (set value "any" to always activate)
+[Activation] SALESFORCE_LIGHTNING_FLOW_SCANNER has been set inactive, as subdirectory has not been found: force-app (set value "any" to always activate)
+[Activation] SPELL_PROSELINT has been set inactive, as none of these files has been found: ['.proselintrc', 'proselint/config.json']
+[Activation] SPELL_VALE has been set inactive, as none of these files has been found: ['.vale.ini']
+[Activation] SQL_SQLFLUFF has been set inactive, as none of these files has been found: ['.sqlfluff']
+[Activation] SWIFT_SWIFTLINT has been set inactive, as none of these files has been found: ['.swiftlint.yml']
+[Activation] TSX_ESLINT has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs', 'package.json:eslintConfig']
+[Activation] TYPESCRIPT_ES has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs', 'package.json:eslintConfig']
+CLOJURE_CLJSTYLE has been disabled in MegaLinter for the following reason: Bug on cljstyle on alpine linux: https://github.com/greglook/cljstyle/issues/104
+JSON_ESLINT_PLUGIN_JSONC has been disabled in MegaLinter for the following reason: Bug in eslint-plugin-jsonc : https://github.com/ota-meshi/eslint-plugin-jsonc/issues/328
+MAKEFILE_CHECKMAKE has been disabled in MegaLinter for the following reason: Security issues: https://github.com/mrtazz/checkmake/issues/99
+MARKDOWN_REMARK_LINT has been disabled in MegaLinter for the following reason: Bug in remark-lint: https://github.com/remarkjs/remark-lint/issues/322
+SQL_TSQLLINT has been disabled in MegaLinter for the following reason: Security issues not handled: # https://github.com/tsqllint/tsqllint/issues/333
+Skipped linters: ANSIBLE_ANSIBLE_LINT, BASH_EXEC, CLOJURE_CLJSTYLE, EDITORCONFIG_EDITORCONFIG_CHECKER, JAVASCRIPT_ES, JAVASCRIPT_PRETTIER, JSON_ESLINT_PLUGIN_JSONC, JSON_NPM_PACKAGE_JSON_LINT, JSX_ESLINT, KUBERNETES_HELM, KUBERNETES_KUBECONFORM, KUBERNETES_KUBESCAPE, MAKEFILE_CHECKMAKE, MARKDOWN_REMARK_LINT, PYTHON_BANDIT, PYTHON_BLACK, PYTHON_FLAKE8, PYTHON_ISORT, PYTHON_MYPY, PYTHON_PYLINT, REPOSITORY_LS_LINT, REPOSITORY_SEMGREP, SALESFORCE_LIGHTNING_FLOW_SCANNER, SALESFORCE_SFDX_SCANNER_APEX, SALESFORCE_SFDX_SCANNER_AURA, SALESFORCE_SFDX_SCANNER_LWC, SPELL_PROSELINT, SPELL_VALE, SQL_SQLFLUFF, SQL_TSQLLINT, SWIFT_SWIFTLINT, TSX_ESLINT, TYPESCRIPT_ES, TYPESCRIPT_PRETTIER
+To receive reports as email, please set variable EMAIL_REPORTER_EMAIL
+::endgroup::
+::group::MegaLinter now collects the files to analyse (expand for details)
+Listing all files in directory [/github/workspace], then filter with:
+- File extensions: , .R, .RMD, .Rmd, .bash, .bicep, .c, .c++, .cc, .cdxml, .clj, .cljc, .cljs, .coffee, .cpp, .cs, .csproj, .css, .cu, .cuh, .cxx, .dart, .dash, .edn, .env, .feature, .go, .gradle, .graphql, .groovy, .gvy, .h, .h++, .hcl, .hh, .hpp, .htm, .html, .hxx, .java, .js, .json, .json5, .jsonc, .ksh, .kt, .kts, .lua, .markdown, .md, .mdx, .nf, .p6, .php, .pl, .pl6, .pm, .pm6, .pp, .proto, .ps1, .ps1xml, .psd1, .psm1, .psrc, .pssc, .py, .r, .raku, .rakumod, .rakutest, .rb, .rs, .rst, .saas, .scala, .scss, .sh, .smk, .t, .tex, .tf, .ts, .txt, .vb, .xml, .xsd, .yaml, .yml
+- File names (regex): Containerfile, Dockerfile, Jenkinsfile, Snakefile
+- Excluding .gitignored files [0]: 
+Kept [23] files on [34] found files
+
++----MATCHING LINTERS-------------------+------------------------------------------------------------------------+----------------+------------+
+| Descriptor | Linter                   | Criteria                                                               | Matching files | Format/Fix |
++------------+--------------------------+------------------------------------------------------------------------+----------------+------------+
+| ACTION     | actionlint               | .yml|.yaml                                                             | 1              | no         |
+| COPYPASTE  | jscpd                    |                                                                        | project        | no         |
+| CSS        | stylelint                | .css|.scss|.saas                                                       | 1              | yes        |
+| JSON       | jsonlint                 | .json                                                                  | 3              | no         |
+| JSON       | v8r                      | .json                                                                  | 3              | no         |
+| JSON       | prettier                 | .json                                                                  | 3              | yes        |
+| MARKDOWN   | markdownlint             | .md                                                                    | 11             | yes        |
+| MARKDOWN   | markdown-link-check      | .md                                                                    | 11             | no         |
+| MARKDOWN   | markdown-table-formatter | .md                                                                    | 11             | yes        |
+| REPOSITORY | checkov                  |                                                                        | project        | no         |
+| REPOSITORY | devskim                  |                                                                        | project        | no         |
+| REPOSITORY | dustilock                |                                                                        | project        | no         |
+| REPOSITORY | git_diff                 |                                                                        | project        | no         |
+| REPOSITORY | gitleaks                 |                                                                        | project        | no         |
+| REPOSITORY | grype                    |                                                                        | project        | no         |
+| REPOSITORY | kics                     |                                                                        | project        | no         |
+| REPOSITORY | secretlint               |                                                                        | project        | no         |
+| REPOSITORY | syft                     |                                                                        | project        | no         |
+| REPOSITORY | trivy                    |                                                                        | project        | no         |
+| REPOSITORY | trivy-sbom               |                                                                        | project        | no         |
+| REPOSITORY | trufflehog               |                                                                        | project        | no         |
+| SPELL      | cspell                   |                                                                        | 23             | no         |
+| SPELL      | lychee                   | .md|.mdx|.markdown|.html|.htm|.rst|.txt|.json|.jsonc|.json5|.yaml|.yml | 21             | no         |
+| YAML       | prettier                 | .yml|.yaml                                                             | 7              | yes        |
+| YAML       | yamllint                 | .yml|.yaml                                                             | 7              | no         |
+| YAML       | v8r                      | .yml|.yaml                                                             | 7              | no         |
++------------+--------------------------+------------------------------------------------------------------------+----------------+------------+
+::endgroup::
+Processing linters on [4] parallel cores… (can be decreased with variable PARALLEL_PROCESS_NUMBER in case of performance issues)
+::group::[32m✅ Linted [JSON] files with [prettier] successfully - (0.54s)[0m (expand for details)
+- Using [prettier v3.3.3] https://megalinter.io/8.0.0/descriptors/json_prettier
+- MegaLinter key: [JSON_PRETTIER]
+- Rules config: identified by [prettier]
+- Number of files analyzed: [3]
+::endgroup::
+::group::[32m✅ Linted [YAML] files with [prettier] successfully - (0.71s)[0m (expand for details)
+- Using [prettier v3.3.3] https://megalinter.io/8.0.0/descriptors/yaml_prettier
+- MegaLinter key: [YAML_PRETTIER]
+- Rules config: identified by [prettier]
+- Number of files analyzed: [7]
+::endgroup::
+::group::[33m✅ Linted [MARKDOWN] files with [markdownlint]: Found 11 non blocking error(s) - (1.17s)[0m (expand for details)
+- Using [markdownlint v0.41.0] https://megalinter.io/8.0.0/descriptors/markdown_markdownlint
+- MegaLinter key: [MARKDOWN_MARKDOWNLINT]
+- Rules config: [.markdownlint.json]
+- Number of files analyzed: [11]
+--Error detail:
+2024/research/slides/2024-03-27-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-04-04-group-meeting.md:6 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-04-10-group-meeting.md:6 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-04-10-group-meeting.md:15 MD024/no-duplicate-heading Multiple headings with the same content [Context: "## 问题"]
+2024/research/slides/2024-04-16-group-meeting.md:6 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-05-01-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-05-05-report.md:7 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## Task"]
+2024/research/slides/2024-05-05-report.md:134 MD024/no-duplicate-heading Multiple headings with the same content [Context: "## Problems"]
+2024/research/slides/2024-05-08-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+2024/research/slides/2024-05-15-group-meeting.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "## 问题"]
+Welcome.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "This is your new *vault*."]
+
+::endgroup::
+::group::[32m✅ Linted [CSS] files with [stylelint] successfully - (1.33s)[0m (expand for details)
+- Using [stylelint v16.8.2] https://megalinter.io/8.0.0/descriptors/css_stylelint
+- MegaLinter key: [CSS_STYLELINT]
+- Rules config: [.stylelintrc.json]
+- Number of files analyzed: [1]
+::endgroup::
+::group::[32m✅ Linted [MARKDOWN] files with [markdown-table-formatter] successfully - (0.42s)[0m (expand for details)
+- Using [markdown-table-formatter v1.6.1] https://megalinter.io/8.0.0/descriptors/markdown_markdown_table_formatter
+- MegaLinter key: [MARKDOWN_MARKDOWN_TABLE_FORMATTER]
+- Rules config: identified by [markdown-table-formatter]
+- Number of files analyzed: [11]
+::endgroup::
+::group::[32m✅ Linted [COPYPASTE] files with [jscpd] successfully - (1.12s)[0m (expand for details)
+- Using [jscpd v4.0.5] https://megalinter.io/8.0.0/descriptors/copypaste_jscpd
+- MegaLinter key: [COPYPASTE_JSCPD]
+- Rules config: [.jscpd.json]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [devskim] successfully - (1.12s)[0m (expand for details)
+- Using [devskim v1.0.33] https://megalinter.io/8.0.0/descriptors/repository_devskim
+- MegaLinter key: [REPOSITORY_DEVSKIM]
+- Rules config: [/github/workspace/.github/megalinter/.devskim.json]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [secretlint] successfully - (1.13s)[0m (expand for details)
+- Using [secretlint v8.2.4] https://megalinter.io/8.0.0/descriptors/repository_secretlint
+- MegaLinter key: [REPOSITORY_SECRETLINT]
+- Rules config: [.secretlintrc.json]
+::endgroup::
+::group::[32m✅ Linted [JSON] files with [v8r] successfully - (2.89s)[0m (expand for details)
+- Using [v8r v4.0.1] https://megalinter.io/8.0.0/descriptors/json_v8r
+- MegaLinter key: [JSON_V8R]
+- Rules config: identified by [v8r]
+- Number of files analyzed: [3]
+::endgroup::
+::group::[32m✅ Linted [MARKDOWN] files with [markdown-link-check] successfully - (3.82s)[0m (expand for details)
+- Using [markdown-link-check v3.12.2] https://megalinter.io/8.0.0/descriptors/markdown_markdown_link_check
+- MegaLinter key: [MARKDOWN_MARKDOWN_LINK_CHECK]
+- Rules config: [.markdown-link-check.json]
+- Number of files analyzed: [11]
+::endgroup::
+::group::[32m✅ Linted [YAML] files with [v8r] successfully - (4.56s)[0m (expand for details)
+- Using [v8r v4.0.1] https://megalinter.io/8.0.0/descriptors/yaml_v8r
+- MegaLinter key: [YAML_V8R]
+- Rules config: identified by [v8r]
+- Number of files analyzed: [7]
+::endgroup::
+::group::[33m✅ Linted [SPELL] files with [cspell]: Found 73 non blocking error(s) - (5.77s)[0m (expand for details)
+- Using [cspell v8.14.1] https://megalinter.io/8.0.0/descriptors/spell_cspell
+- MegaLinter key: [SPELL_CSPELL]
+- Rules config: [/github/workspace/.cspell.json]
+- Number of files analyzed: [24]
+--Error detail:
+ 1/21 .github/auto-label.yaml 777.17ms
+ 2/21 .github/blunderbuss.yml 224.95ms X
+.github/blunderbuss.yml:4:5       - Unknown word (liblaf)     -- - liblaf
+	 Suggestions: [lila, libau, libia, libra, libya]
+.github/blunderbuss.yml:7:5       - Unknown word (liblaf)     -- - liblaf
+	 Suggestions: [lila, libau, libia, libra, libya]
+ 3/21 .github/renovate.json 203.37ms
+ 4/21 .github/sync-repo-settings.yaml 2.11ms
+ 5/21 .github/workflows/megalinter.yaml 139.04ms X
+.github/workflows/megalinter.yaml:179:15    - Unknown word (stefanzweifel) -- uses: stefanzweifel/git-auto-commit-action
+	 Suggestions: []
+ 6/21 .gitignore 5.23ms
+ 7/21 .mega-linter.yaml 435.81ms X
+.mega-linter.yaml:34:12     - Unknown word (ISORT)      -- - PYTHON_ISORT
+	 Suggestions: [SORT, iost, IOST, IGOR, ISAR]
+.mega-linter.yaml:35:12     - Unknown word (MYPY)       -- - PYTHON_MYPY
+	 Suggestions: [MOPY, MYOPY, MACY, MANY, MAPS]
+.mega-linter.yaml:36:12     - Unknown word (PYLINT)     -- - PYTHON_PYLINT
+	 Suggestions: [PLYING, PINT, PAINT, PLANT, PLINK]
+.mega-linter.yaml:42:12     - Unknown word (DEVSKIM)    -- REPOSITORY_DEVSKIM_CONFIG_FILE: .github
+	 Suggestions: [DESK, DEVI, DKIM, DEISM, DENIM]
+.mega-linter.yaml:42:53     - Unknown word (devskim)    -- .github/megalinter/.devskim.json
+	 Suggestions: [desk, devi, dkim, deism, denim]
+.mega-linter.yaml:43:12     - Unknown word (KICS)       -- REPOSITORY_KICS_CONFIG_FILE: .github
+	 Suggestions: [KI'S, KICK, KIDS, KINS, KIPS]
+.mega-linter.yaml:43:49     - Unknown word (kics)       -- .github/megalinter/kics.config
+	 Suggestions: [ki's, kick, kids, kins, kips]
+ 8/21 .pre-commit-config.yaml 79.47ms X
+.pre-commit-config.yaml:10:13     - Unknown word (commitizen) -- - id: commitizen
+	 Suggestions: [comities, commitid, committed, committee, committer]
+.pre-commit-config.yaml:34:20     - Unknown word (bidi)       -- - id: forbid-bidi-controls
+	 Suggestions: [bide, bids, bini, Bini, bid]
+ 9/21 2024/research/notes/2024-03-21-项目介绍.md 752.16ms X
+2024/research/notes/2024-03-21-项目介绍.md:60:7      - Unknown word (Amberg)     -- [^1]: Amberg, Brian, Sami Romdhani
+	 Suggestions: [amber, Amber, Ambers, Ambery, Amer]
+2024/research/notes/2024-03-21-项目介绍.md:60:22     - Unknown word (Sami)       -- ^1]: Amberg, Brian, Sami Romdhani, and Thomas
+	 Suggestions: [sadi, Sadi, saki, Saki, Same]
+2024/research/notes/2024-03-21-项目介绍.md:60:27     - Unknown word (Romdhani)   -- Amberg, Brian, Sami Romdhani, and Thomas Vetter.
+	 Suggestions: [romani, Romani, Rodman, roman, Roman]
+2024/research/notes/2024-03-21-项目介绍.md:75:7      - Unknown word (Cotin)      -- [^2]: Cotin, Stéphane, Hervé Delingette
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/notes/2024-03-21-项目介绍.md:75:14     - Unknown word (Stéphane)   -- [^2]: Cotin, Stéphane, Hervé Delingette, and
+	 Suggestions: [stephan, Stephan, stephanie, Stephanie, Stephen]
+2024/research/notes/2024-03-21-项目介绍.md:75:24     - Unknown word (Hervé)      -- ]: Cotin, Stéphane, Hervé Delingette, and Nicholas
+	 Suggestions: [here, Here, Heave, Helve, Herne]
+2024/research/notes/2024-03-21-项目介绍.md:75:30     - Unknown word (Delingette) -- Cotin, Stéphane, Hervé Delingette, and Nicholas Ayache
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/notes/2024-03-21-项目介绍.md:75:55     - Unknown word (Ayache)     -- Delingette, and Nicholas Ayache. 2000. “A Hybrid Elastic
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/notes/2024-03-21-项目介绍.md:80:8      - Unknown word (bmatrix)    -- \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:83:6      - Unknown word (bmatrix)    -- \end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:83:22     - Unknown word (bmatrix)    -- end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:86:6      - Unknown word (bmatrix)    -- \end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:86:24     - Unknown word (bmatrix)    -- end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/notes/2024-03-21-项目介绍.md:98:14     - Unknown word (mathbf)     -- - 已知 $f_1 = \mathbf{0}$ --- 自由顶点所受的外力,
+	 Suggestions: [math, maths, math's, mather, mathew]
+10/21 2024/research/slides/2024-03-27-group-meeting.md 140.84ms X
+2024/research/slides/2024-03-27-group-meeting.md:52:6      - Unknown word (Eigen)      -- - 尝试 Eigen 求解以实现自由调整参数
+	 Suggestions: [E'en, eben, Eben, eden, Eden]
+11/21 2024/research/slides/2024-04-04-group-meeting.md 5.48ms
+12/21 2024/research/slides/2024-04-10-group-meeting.md 20.44ms
+13/21 2024/research/slides/2024-04-16-group-meeting.md 32.53ms X
+2024/research/slides/2024-04-16-group-meeting.md:42:59     - Unknown word (disp)       -- 些对应可以得到 `S2` 部分顶点的 `disp` (术前后位移)
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:43:7      - Unknown word (disp)       -- 5. 对 `disp` 插值, 得到 `S2` 上 dense
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:43:34     - Unknown word (disp)       -- 值, 得到 `S2` 上 dense `disp`
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:44:13     - Unknown word (disp)       -- - 未知顶点的 `disp` 由邻接顶点加权平均, 多次迭代至所有
+	 Suggestions: [dips, disc, dish, disk, dist]
+2024/research/slides/2024-04-16-group-meeting.md:44:41     - Unknown word (disp)       -- 接顶点加权平均, 多次迭代至所有顶点 `disp` 已知
+	 Suggestions: [dips, disc, dish, disk, dist]
+14/21 2024/research/slides/2024-05-01-group-meeting.md 139.92ms X
+2024/research/slides/2024-05-01-group-meeting.md:12:21     - Unknown word (tetrahedralization) -- - DONE 实现对穿模 mesh 的 tetrahedralization
+	 Suggestions: []
+2024/research/slides/2024-05-01-group-meeting.md:18:14     - Unknown word (Tetrahedralization) -- ## 穿模 Mesh 的 Tetrahedralization
+	 Suggestions: []
+15/21 2024/research/slides/2024-05-05-report.md 1143.16ms X
+2024/research/slides/2024-05-05-report.md:35:24     - Unknown word (Cotin)      -- Mass-Tensor Model[^(Cotin, Delingette, and Ayache
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/slides/2024-05-05-report.md:35:31     - Unknown word (Delingette) -- Tensor Model[^(Cotin, Delingette, and Ayache 2000)]
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/slides/2024-05-05-report.md:35:47     - Unknown word (Ayache)     -- Cotin, Delingette, and Ayache 2000)]
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/slides/2024-05-05-report.md:37:4      - Unknown word (Cotin)      -- [^(Cotin, Delingette, and Ayache
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/slides/2024-05-05-report.md:37:11     - Unknown word (Delingette) -- [^(Cotin, Delingette, and Ayache 2000)]:
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/slides/2024-05-05-report.md:37:27     - Unknown word (Ayache)     -- Cotin, Delingette, and Ayache 2000)]: Cotin, Stéphane
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/slides/2024-05-05-report.md:37:42     - Unknown word (Cotin)      -- and Ayache 2000)]: Cotin, Stéphane, Hervé Delingette
+	 Suggestions: [Coin, Coti, colin, Colin, Cotan]
+2024/research/slides/2024-05-05-report.md:37:49     - Unknown word (Stéphane)   -- Ayache 2000)]: Cotin, Stéphane, Hervé Delingette, and
+	 Suggestions: [stephan, Stephan, stephanie, Stephanie, Stephen]
+2024/research/slides/2024-05-05-report.md:37:59     - Unknown word (Hervé)      -- ]: Cotin, Stéphane, Hervé Delingette, and Nicholas
+	 Suggestions: [here, Here, Heave, Helve, Herne]
+2024/research/slides/2024-05-05-report.md:37:65     - Unknown word (Delingette) -- Cotin, Stéphane, Hervé Delingette, and Nicholas Ayache
+	 Suggestions: [Delineate, Delineated, Delineates]
+2024/research/slides/2024-05-05-report.md:37:90     - Unknown word (Ayache)     -- Delingette, and Nicholas Ayache. 2000. “A Hybrid Elastic
+	 Suggestions: [apache, Apache, Ache, Ayah, Apace]
+2024/research/slides/2024-05-05-report.md:41:29     - Unknown word (mathrm)     -- \frac{\lambda}{2} (\mathrm{tr}(E))^{2} + \mu \mathrm
+	 Suggestions: [math, mater, maths, maihem, maters]
+2024/research/slides/2024-05-05-report.md:41:55     - Unknown word (mathrm)     -- mathrm{tr}(E))^{2} + \mu \mathrm{tr}(E^2) \\\\
+	 Suggestions: [math, mater, maths, maihem, maters]
+2024/research/slides/2024-05-05-report.md:47:22     - Unknown word (Lamé)       -- $\lambda, \mu$ --- Lamé parameters
+	 Suggestions: [Lame, Lama, lamb, Lamb, Lamp]
+2024/research/slides/2024-05-05-report.md:56:4      - Unknown word (mathbf)     -- \mathbf{f} & = [\mathbf{K}]
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:56:20     - Unknown word (mathbf)     -- \mathbf{f} & = [\mathbf{K}] \mathbf{u}
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:56:32     - Unknown word (mathbf)     -- f} & = [\mathbf{K}] \mathbf{u}
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:67:8      - Unknown word (bmatrix)    -- \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:70:6      - Unknown word (bmatrix)    -- \end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:70:22     - Unknown word (bmatrix)    -- end{bmatrix} \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:73:6      - Unknown word (bmatrix)    -- \end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:73:24     - Unknown word (bmatrix)    -- end{bmatrix} = \begin{bmatrix}
+	 Suggestions: [beatrix, Beatrix, matrix, Matrix, imatix]
+2024/research/slides/2024-05-05-report.md:84:2      - Unknown word (mathbf)     -- \mathbf K_{11} \mathbf u_1
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:84:17     - Unknown word (mathbf)     -- \mathbf K_{11} \mathbf u_1 = - \mathbf K_{
+	 Suggestions: [math, maths, math's, mather, mathew]
+2024/research/slides/2024-05-05-report.md:95:5      - Unknown word (GMRES)      -- - **GMRES**: Generalized Minimal
+	 Suggestions: [GORES, GYRES, GERS, GOERS, GORSE]
+2024/research/slides/2024-05-05-report.md:101:45    - Unknown word (Schutyser)  -- )]: Mollemans, W, F Schutyser, N Nadjmi, F Maes, and
+	 Suggestions: [schuyler, Schuyler, Scouter, Scutter, Shutter]
+2024/research/slides/2024-05-05-report.md:101:58    - Unknown word (Nadjmi)     -- Mollemans, W, F Schutyser, N Nadjmi, F Maes, and P Suetens
+	 Suggestions: [naomi, Naomi, Andrei, nama, Nama]
+2024/research/slides/2024-05-05-report.md:101:68    - Unknown word (Maes)       -- Schutyser, N Nadjmi, F Maes, and P Suetens. 200
+	 Suggestions: [Ames, Meas, Ma's, maas, Maas]
+2024/research/slides/2024-05-05-report.md:101:138   - Unknown word (Maxillofacial) -- Tissue Deformations for a Maxillofacial Surgery Planning System
+	 Suggestions: []
+2024/research/slides/2024-05-05-report.md:112:39    - Unknown word (mathrm)        -- al. 2010)]\: $E = 3 \mathrm{kPa}, \nu = 0.46$
+	 Suggestions: [math, mater, maths, maihem, maters]
+2024/research/slides/2024-05-05-report.md:115:28    - Unknown word (Hyungmin)      -- et al. 2010)]: Kim, Hyungmin, Philipp Jürgens, Stefan
+	 Suggestions: [Hangman, Hangmen, hyundai, Hyundai]
+2024/research/slides/2024-05-05-report.md:115:38    - Unknown word (Philipp)       -- 0)]: Kim, Hyungmin, Philipp Jürgens, Stefan Weber
+	 Suggestions: [philip, Philip, philips, Philips, Philippa]
+2024/research/slides/2024-05-05-report.md:115:46    - Unknown word (Jürgens)       -- Kim, Hyungmin, Philipp Jürgens, Stefan Weber, Lutz
+	 Suggestions: [Jargons, jorge's, Jorge's, judges, Judges]
+2024/research/slides/2024-05-05-report.md:115:69    - Unknown word (Lutz)          -- rgens, Stefan Weber, Lutz-Peter Nolte, and Mauricio
+	 Suggestions: [Lute, luth, Luth, luz, Luz]
+2024/research/slides/2024-05-05-report.md:115:80    - Unknown word (Nolte)         -- Stefan Weber, Lutz-Peter Nolte, and Mauricio Reyes
+	 Suggestions: [Nolet, Note, nolde, Nolde, Nolle]
+2024/research/slides/2024-05-05-report.md:115:156   - Unknown word (Cranio)        -- Simulation Strategy for Cranio-Maxillofacial Surgery
+	 Suggestions: [Crania, Cardio, Carnie, canso, Canso]
+2024/research/slides/2024-05-05-report.md:115:163   - Unknown word (Maxillofacial) -- Strategy for Cranio-Maxillofacial Surgery Using Facial
+	 Suggestions: []
+2024/research/slides/2024-05-05-report.md:120:15    - Unknown word (undeformed)    -- <figcaption>undeformed</figcaption>
+	 Suggestions: [unreformed, unformed, uniformed, uninformed, unperformed]
+16/21 2024/research/slides/2024-05-08-group-meeting.md 3.49ms
+17/21 2024/research/slides/2024-05-15-group-meeting.md 2.94ms
+18/21 95f39ffd-f26b-4d2b-8691-4c23639f37f5-megalinter_file_names_cspell.txt 45.56ms X
+95f39ffd-f26b-4d2b-8691-4c23639f37f5-megalinter_file_names_cspell.txt:5:20      - Unknown word (devskim)    -- github megalinter devskim
+	 Suggestions: [desk, devi, dkim, deism, denim]
+19/21 css/slides.css 78.78ms
+20/21 obsidian.md 10.43ms
+21/21 Welcome.md 1.80ms
+CSpell: Files checked: 21, Issues found: 73 in 10 files.
+
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [kics] successfully - (2.42s)[0m (expand for details)
+- Using [kics v2.1.2] https://megalinter.io/8.0.0/descriptors/repository_kics
+- MegaLinter key: [REPOSITORY_KICS]
+- Rules config: [/github/workspace/.github/megalinter/kics.config]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [trivy-sbom] successfully - (0.76s)[0m (expand for details)
+- Using [trivy-sbom v0.54.1] https://megalinter.io/8.0.0/descriptors/repository_trivy_sbom
+- MegaLinter key: [REPOSITORY_TRIVY_SBOM]
+- Rules config: identified by [trivy-sbom]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [trivy] successfully - (6.47s)[0m (expand for details)
+- Using [trivy v0.54.1] https://megalinter.io/8.0.0/descriptors/repository_trivy
+- MegaLinter key: [REPOSITORY_TRIVY]
+- Rules config: identified by [trivy]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [trufflehog] successfully - (3.88s)[0m (expand for details)
+- Using [trufflehog v3.81.9] https://megalinter.io/8.0.0/descriptors/repository_trufflehog
+- MegaLinter key: [REPOSITORY_TRUFFLEHOG]
+- Rules config: identified by [trufflehog]
+::endgroup::
+::group::[32m✅ Linted [ACTION] files with [actionlint] successfully - (0.01s)[0m (expand for details)
+- Using [actionlint v1.7.1] https://megalinter.io/8.0.0/descriptors/action_actionlint
+- MegaLinter key: [ACTION_ACTIONLINT]
+- Rules config: identified by [actionlint]
+- Number of files analyzed: [1]
+::endgroup::
+::group::[32m✅ Linted [SPELL] files with [lychee] successfully - (1.13s)[0m (expand for details)
+- Using [lychee v0.15.1] https://megalinter.io/8.0.0/descriptors/spell_lychee
+- MegaLinter key: [SPELL_LYCHEE]
+- Rules config: identified by [lychee]
+- Number of files analyzed: [21]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [dustilock] successfully - (0.01s)[0m (expand for details)
+- Using [dustilock v1.2.0] https://megalinter.io/8.0.0/descriptors/repository_dustilock
+- MegaLinter key: [REPOSITORY_DUSTILOCK]
+- Rules config: identified by [dustilock]
+::endgroup::
+::group::[32m✅ Linted [JSON] files with [jsonlint] successfully - (0.28s)[0m (expand for details)
+- Using [jsonlint v16.0.0] https://megalinter.io/8.0.0/descriptors/json_jsonlint
+- MegaLinter key: [JSON_JSONLINT]
+- Rules config: identified by [jsonlint]
+- Number of files analyzed: [3]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [grype] successfully - (12.92s)[0m (expand for details)
+- Using [grype v0.79.5] https://megalinter.io/8.0.0/descriptors/repository_grype
+- MegaLinter key: [REPOSITORY_GRYPE]
+- Rules config: [.grype.yaml]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [gitleaks] successfully - (0.31s)[0m (expand for details)
+- Using [gitleaks v8.18.4] https://megalinter.io/8.0.0/descriptors/repository_gitleaks
+- MegaLinter key: [REPOSITORY_GITLEAKS]
+- Rules config: [.gitleaks.toml]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [syft] successfully - (0.18s)[0m (expand for details)
+- Using [syft v1.11.0] https://megalinter.io/8.0.0/descriptors/repository_syft
+- MegaLinter key: [REPOSITORY_SYFT]
+- Rules config: identified by [syft]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [git_diff] successfully - (0.13s)[0m (expand for details)
+- Using [git_diff v2.45.2] https://megalinter.io/8.0.0/descriptors/repository_git_diff
+- MegaLinter key: [REPOSITORY_GIT_DIFF]
+- Rules config: identified by [git_diff]
+::endgroup::
+::group::[32m✅ Linted [YAML] files with [yamllint] successfully - (0.42s)[0m (expand for details)
+- Using [yamllint v1.35.1] https://megalinter.io/8.0.0/descriptors/yaml_yamllint
+- MegaLinter key: [YAML_YAMLLINT]
+- Rules config: [.yamllint.yml]
+- Number of files analyzed: [7]
+::endgroup::
+::group::[32m✅ Linted [REPOSITORY] files with [checkov] successfully - (13.46s)[0m (expand for details)
+- Using [checkov v3.2.232] https://megalinter.io/8.0.0/descriptors/repository_checkov
+- MegaLinter key: [REPOSITORY_CHECKOV]
+- Rules config: [/github/workspace/.github/megalinter/.checkov.yml]
+::endgroup::
+[Updated Sources Reporter] copied 1 fixed source files in folder /github/workspace/megalinter-reports/updated_sources.
+Download it from artifacts then copy-paste it in your local repo to apply linters updates
+[GitHub Comment Reporter] Posted summary as comment on liblaf/obsidian #PR3
+
++----SUMMARY----+--------------------------+---------------+-------+-------+--------+--------------+
+| Descriptor    | Linter                   | Mode          | Files | Fixed | Errors | Elapsed time |
++---------------+--------------------------+---------------+-------+-------+--------+--------------+
+| ✅ ACTION     | actionlint               | list_of_files |     1 |       |      0 |        0.01s |
+| ✅ COPYPASTE  | jscpd                    | project       |   n/a |       |      0 |        1.12s |
+| ✅ CSS        | stylelint                | list_of_files |     1 |     0 |      0 |        1.33s |
+| ✅ JSON       | jsonlint                 | list_of_files |     3 |       |      0 |        0.28s |
+| ✅ JSON       | prettier                 | list_of_files |     3 |     0 |      0 |        0.54s |
+| ✅ JSON       | v8r                      | list_of_files |     3 |       |      0 |        2.89s |
+| ⚠️ MARKDOWN   | markdownlint             | list_of_files |    11 |     0 |     11 |        1.17s |
+| ✅ MARKDOWN   | markdown-link-check      | list_of_files |    11 |       |      0 |        3.82s |
+| ✅ MARKDOWN   | markdown-table-formatter | list_of_files |    11 |     1 |      0 |        0.42s |
+| ✅ REPOSITORY | checkov                  | project       |   n/a |       |      0 |       13.46s |
+| ✅ REPOSITORY | devskim                  | project       |   n/a |       |      0 |        1.12s |
+| ✅ REPOSITORY | dustilock                | project       |   n/a |       |      0 |        0.01s |
+| ✅ REPOSITORY | gitleaks                 | project       |   n/a |       |      0 |        0.31s |
+| ✅ REPOSITORY | git_diff                 | project       |   n/a |       |      0 |        0.13s |
+| ✅ REPOSITORY | grype                    | project       |   n/a |       |      0 |       12.92s |
+| ✅ REPOSITORY | kics                     | project       |   n/a |       |      0 |        2.42s |
+| ✅ REPOSITORY | secretlint               | project       |   n/a |       |      0 |        1.13s |
+| ✅ REPOSITORY | syft                     | project       |   n/a |       |      0 |        0.18s |
+| ✅ REPOSITORY | trivy                    | project       |   n/a |       |      0 |        6.47s |
+| ✅ REPOSITORY | trivy-sbom               | project       |   n/a |       |      0 |        0.76s |
+| ✅ REPOSITORY | trufflehog               | project       |   n/a |       |      0 |        3.88s |
+| ⚠️ SPELL      | cspell                   | list_of_files |    24 |       |     73 |        5.77s |
+| ✅ SPELL      | lychee                   | list_of_files |    21 |       |      0 |        1.13s |
+| ✅ YAML       | prettier                 | list_of_files |     7 |     0 |      0 |        0.71s |
+| ✅ YAML       | v8r                      | list_of_files |     7 |       |      0 |        4.56s |
+| ✅ YAML       | yamllint                 | list_of_files |     7 |       |      0 |        0.42s |
++---------------+--------------------------+---------------+-------+-------+--------+--------------+
+
+[34mYou could have same capabilities but better runtime performances if you use a MegaLinter flavor:[0m
+- [terraform] oxsecurity/megalinter/flavors/terraform@v8 (54 linters) https://megalinter.io/8.0.0/flavors/terraform/
+- [cupcake] oxsecurity/megalinter/flavors/cupcake@v8 (83 linters) https://megalinter.io/8.0.0/flavors/cupcake/
+
+[MARKDOWN_SUMMARY Reporter] Generated MARKDOWN_SUMMARY report: /github/workspace/megalinter-reports/megalinter-report.md
+[33m⚠️ Successfully linted all files, but with ignored errors[0m
